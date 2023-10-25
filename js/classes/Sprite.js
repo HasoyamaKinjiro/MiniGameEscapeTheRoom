@@ -24,7 +24,7 @@ class Sprite {
         this.animations = animations
         this.loop = loop
         this.autoplay = autoplay
-        this.currentAnimation
+        this.currentAnimation = undefined
 
         if (this.animations) {
             for (let key in this.animations) {

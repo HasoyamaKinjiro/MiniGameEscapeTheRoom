@@ -40,7 +40,7 @@ const player = new Player({
             frameRate: 8,
             frameBuffer: 8,
             loop: false,
-            imageSrc: '../img/king/enterDoor.png',
+            imageSrc: './img/king/enterDoor.png',
             onComplete: () => {
                 gsap.to(overlay, {  // gsap - library for animations
                     opacity: 1,

@@ -5,14 +5,9 @@ class Player extends Sprite{
             x: 200,
             y: 200
         }
-
         this.velocity = {
             x: 0,
             y: 0
-        }
-
-        this.sides = {
-            bottom: this.position.y + this.height
         }
         this.gravity = 0.2
         this.collisionBlocks = collisionBlocks
